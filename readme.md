@@ -47,6 +47,9 @@ Copy the entire string from the email to a file and run the `parse_dl_file.sh` s
 
 ```
 echo "$string" > dl_string.txt
+
+export $aspera_bin=/path/to/.aspera/connect/bin/ascp
+export $aspera_key=/path/to/.aspera/connect/etc/asperaweb_id_dsa.openssh
 sh parse_dl_file.sh dl_string.txt
 ```
 
