@@ -3,8 +3,8 @@
 DL_STR_FILE=$1;
 DL_STR=`cat $DL_STR_FILE`;
 
-aspera_bin=/home/cczysz/.aspera/connect/bin/ascp;
-aspera_key=/home/cczysz/.aspera/connect/etc/asperaweb_id_dsa.openssh;
+#aspera_bin=/home/cczysz/.aspera/connect/bin/ascp;
+#aspera_key=/home/cczysz/.aspera/connect/etc/asperaweb_id_dsa.openssh;
 
 idx=0
 echo $idx
