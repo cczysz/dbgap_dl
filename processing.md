@@ -32,3 +32,11 @@ Extract each file into two gzipped fastq files (paired-end):
 `fastq-dump -I --split-files --gzip <SRR>`
 
 This outputs two files named `<SRR>.fastq.1.gz` #check
+
+Rename each file to the GTEx ID using the manifest file.
+
+`grep SRR658319 manifest_40651_08-30-2016_s.csv`
+
+`reads/SRP012682/SRS389106/SRX221542/SRR658319/SRR658319.sra, No, SRR658319, SRS389106, GTEX-VJWN-0726-SM-3GIJ8, 915071, SAMN01887103`
+
+`mv SRR658319.fastq.1.gz GTEX-VJWN-0726-SM-3GIJ8_R1.fq.gz`
