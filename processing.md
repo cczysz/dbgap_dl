@@ -31,7 +31,7 @@ Extract each file into two gzipped fastq files (paired-end):
 
 `fastq-dump -I --split-files --gzip <SRR>`
 
-This outputs two files named `<SRR>.fastq.1.gz` #check
+This outputs two files named `<SRR>_1.fastq.gz | <SRR>_2.fastq.gz`
 
 Rename each file to the GTEx ID using the manifest file.
 
